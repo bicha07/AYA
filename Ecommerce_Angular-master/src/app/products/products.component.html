@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accueil - Tech House</title>
+
+</head>
+
+<body>
+
+<!-- Contenu principal -->
+<main>
+  <!-- Section Produits en vedette -->
+  <section class="featured-products">
+    <article *ngFor="let produit of produits" class="product">
+      <div class="product-image-wrapper">
+        <img [src]="produit.imageUrl" alt="{{ produit.name }}">
+      </div>
+      <div class="product-details">
+        <h3>{{ produit.inStock ? 'EN STOCK' : 'RUPTURE DE STOCK' }}</h3>
+        <h3>{{ produit.name }}</h3>
+        <p>Prix: {{ produit.price }} DT</p>
+        <p>{{ produit.description }}</p>
+      </div>
+      <button (click)="ajouterAuPanier(produit)" [disabled]="!produit.inStock">Ajouter au panier</button>
+    </article>
+  </section>
+  
+</main>
+
+  
+  <!-- Modal pour ajout au panier -->
+  <ng-template #addCartModal let-close="close">
+    <div class="modal-header">
+      <h4 class="modal-title">Produit ajouté au panier</h4>
+      <button type="button" class="close" aria-label="Close" (click)="close()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div *ngIf="selectedProductToAdd">
+        <div class="product-image-wrapper">
+          <img [src]="selectedProductToAdd.imageUrl" alt="{{ selectedProductToAdd.name }}">
+        </div>
+        <div class="product-details">
+          <h3>{{ selectedProductToAdd.name }}</h3>
+          <p>{{ selectedProductToAdd.description }}</p>
+          <p>Prix: {{ selectedProductToAdd.price }} DT</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="close()">annuler</button>
+      <button type="button" class="btn btn-primary" (click)="confirmAddToCart()">Continuer </button>
+    </div>
+  </ng-template>
+  
+
+</body>
+</html>
+
+
+
+

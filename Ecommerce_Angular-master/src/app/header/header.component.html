@@ -1,0 +1,59 @@
+
+    <header>
+        <div class="top">
+        <div class="contact">
+            <div class="phone">
+                <p class="social-logo"> <i class="fas fa-phone"></i> </p>
+                <p>+216-95 386 248</p>
+            </div>
+            <div class="email">
+                <p class="social-logo"> <i class="fas fa-envelope"> </i>
+                </p>
+                <p><A HREF="mailto:tech@techouse.com">tech@techouse.com</A></p>
+            </div>
+            <div class="address">
+                <p class="social-logo"><i class="fas fa-map-marker"></i></p>
+                <p><a href="https://goo.gl/maps/QnoEpq7gUJeGh7Jm6" target="_blank">Sfax</a></p>
+            </div>
+        </div>
+        <div class="wallet">
+            <div class="dollar">
+                <p class="social-logo"><i class="fas fa-dollar-sign"></i></p>
+                <p>DT</p> 
+            </div>
+
+            <div class="account">
+                <p class="social-logo"><i class="fas fa-user"></i></p>
+                <p>My Account</p>
+            </div>
+        </div>
+
+        </div>
+        <!-- [ngClass]="{'fixed': isFixed} -->
+    <div class="head"  > 
+        <div class="logo">
+            <a routerLink="/"> <p>Tech <span>House</span></p></a>
+        </div>
+        
+        <form action="" class="search">
+            <input type="text"  placeholder="Search here"/>
+            <button>Search</button>
+        </form>
+        <div class="panier">
+            <div class="wishlist">
+                <a routerLink="wishlist">
+                <p class="head-logo"><i class="fas fa-heart"></i></p>
+                <p class="text">Your wishlist</p>
+                </a>
+            </div>
+                
+            <div class="cart"><a routerLink="/cart">
+                <p class="head-logo"><i class="fas fa-shopping-cart"></i><sub class="root" style="color: #865DFF;">0</sub></p>
+                <p class="text">Your Cart</p>
+            </a>
+            </div>
+        </div>
+    </div>
+    <app-nav-bar></app-nav-bar>
+
+    </header>

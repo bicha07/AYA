@@ -1,0 +1,39 @@
+
+   <div *ngIf="cartProducts.length === 0">
+     <div class="container">
+         <div class="card">
+             <h5 class="card-title">My Favoris List</h5>
+             <div class="center">
+                 <img src="../../assets/Ecommerce campaign-amico.svg" alt="" width="200px">
+                 <h4>Your favoris list is empty !</h4>
+                 <h6>Add items to your favoris list</h6>
+                 <button class="btn btn-primary px-5 py-3 mt-3" routerLink="/">Shop now</button>
+             </div>
+         </div>
+     </div>
+   </div>
+   <div *ngFor="let product of cartProducts" class="product-container">
+     <div class="product-details">
+       <img [src]="product.imageUrl" alt="{{ product.name }}" class="product-image">
+       <div class="product-info">
+         <h3>{{ product.name }}</h3>
+         <p>{{ product.description }}</p>
+         <p>Prix: {{ product.price }} DT</p>
+       </div>
+       <div class="product-item">
+         <!-- Les détails du produit ici -->
+         <button class="confirm-button" (click)="confirmDeletion()">Confirmer</button>
+
+         <button class="delete-button" (click)="deleteProduct(product.id)">delete</button>
+       </div>
+     </div>
+   </div>
+   
+   
+   
+   <div *ngIf="showConfirmation" class="alert-message">
+    Votre demande a été bien prise en charge
+  </div>
+  
+   
+   <!--  -->

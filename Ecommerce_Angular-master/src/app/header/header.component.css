@@ -1,0 +1,167 @@
+header {
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+
+
+   }
+
+.top{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 12px 150px ;
+   align-items: center;
+   background-color: #1E1F29;
+   color: #fff;
+   font-size: 0.8em;
+   font-weight: 700;
+   height: 40px;
+
+
+}
+.dd.fixed {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+}
+
+.top .contact div , .top .wallet div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   cursor: pointer;
+}
+.top .contact div p, .top .wallet div p{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 4px;
+}
+.social-logo{
+   color: #865DFF;
+   font-size: 0.9em;
+}
+
+.logo a { 
+   font-family: 'Quintessential', cursive;
+   text-decoration: none;
+   color: #fff;
+   font-size: 2.2em;
+   font-weight: 7700;
+   letter-spacing: 1px;
+   font-style: italic;
+   
+}
+
+
+
+.contact , .wallet, .panier{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+} 
+
+.contact div, .wallet div ,.panier div{
+   padding-left: 20px;
+}
+
+.logo a p{
+   font-family: 'Quintessential', cursive;
+   font-weight: bold;
+
+}
+.logo a span{
+   font-family: 'Quintessential', cursive;
+   color: #000;
+   background-color: #865DFF;
+   border-radius: 5px;
+   font-weight: bold;
+
+}
+
+.head{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding:20px 30px ;
+   align-items: center;
+   background-color: #15161D;
+   color: #fff;
+   border-bottom: 2px solid #865DFF;
+   height: 90px;
+   overflow: hidden;
+
+}
+
+.text {
+   font-size: 0.8em;
+   font-weight: 500;
+  
+}
+
+.cart .text{
+   transform: translate(-10px);
+}
+
+.wishlist .text{
+   transform: translate(-25px);
+}
+
+.head-logo{
+   font-size: 16px;
+   color: #865DFF;
+
+}
+select, input , button{
+    height: 3em;
+}
+
+select{
+    width:11em ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    transform: translate(-4px);
+    padding-left: 8px;
+
+}
+
+input {
+    transform: translate(-9px);
+    width: 23em;
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    outline: none;
+
+}
+
+button{
+    transform: translate(-14px);
+    background-color: #865DFF;
+    color: #fff;
+    width: 8em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    height: 3.1em;
+   border: none;
+   cursor: pointer;
+
+}
+
+
+.navigation{
+    padding: 25px 200px; 
+    border-bottom: 0.5px solid rgb(139, 137, 137);
+}
+a{
+   text-decoration: none;
+   color: white;
+   
+}

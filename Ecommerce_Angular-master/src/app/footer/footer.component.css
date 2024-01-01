@@ -1,0 +1,125 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  /* Main content wrapper */
+  .content-wrapper {
+    min-height: calc(100vh - 100px); /* Adjust the 100px to the height of your footer */
+    /* Other styles for your main content */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #1E1F29;
+    color: #fff;
+    padding: 45px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+
+  
+  /* Footer title styles */
+  #footer_title {
+    opacity: 1;
+    margin-bottom: 30px;
+    font-weight: 650;
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+  
+  /* Link styles */
+  .part2 a {
+    color: #fff;
+    transition: 0.6s ease;
+  }
+  
+  .part2 a:hover {
+    color: #865DFF;
+  }
+  
+  /* Footer icons */
+  .footer_icons a i {
+    color: #fff;
+    padding-right: 12px;
+    padding-top: 16px;
+    font-size: 1.2em;
+    transition: 0.7s ease;
+  }
+  
+  .footer_icons a i:hover {
+    transform: scale(1.1);
+    color: #865DFF;
+  }
+  
+  /* The rest of your CSS for other elements */
+  .footer_content {
+    padding: 45px 60px;
+    background-color: #1E1F29;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}  
+.part1 li , .part3 li , .part2 li {
+    list-style-type: none;
+    opacity: 0.6;
+    font-size: 0.9em;
+    margin-top: 6px;
+}
+
+/* Ensure the footer itself is full width */
+footer {
+    width: 100%;
+    background-color: #1E1F29;
+    color: #fff;
+  }
+  
+  /* Flex container for the footer content */
+  .footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 45px 60px; /* Adjust padding as needed */
+    width: 100%;
+  }
+  
+  /* Flex items for the lists */
+  .footer_content ul {
+    flex: 1; /* Each flex item takes up equal space */
+    padding: 0 20px; /* Add some padding between the items */
+  }
+  
+  /* Ensure the title is full opacity and others are slightly transparent */
+  #footer_title {
+    opacity: 1;
+    font-weight: 650;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 30px; /* Space below the title */
+  }
+  
+  /* Styling for the list items */
+  .part1 li, .part3 li, .part2 li {
+    list-style-type: none;
+    opacity: 0.6; /* Other items are less opaque */
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+  
+  /* You can keep the rest of your CSS as is */
+  
+  /* Add this to remove default margins from the body which can affect full width */
+  body {
+    margin: 0;
+  }

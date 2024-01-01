@@ -1,0 +1,40 @@
+section{
+    background-color: #fff;
+    overflow: hidden;
+
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    height: 25px;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color:  #15161D;
+    padding-left: 27px; 
+    font-weight: 600;
+    font-size: 1em;
+   transition: 0.7s ease;
+    display: inline-block;
+}
+
+.navigation option{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.navigation{
+    padding: 25px 200px; 
+    border-bottom: 0.5px solid rgb(139, 137, 137);
+}
+.navigation a:hover{
+    color: #865DFF;
+    transform: scale(1.1);
+    
+}
+
+

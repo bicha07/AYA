@@ -1,0 +1,28 @@
+<!-- <section>
+        <div class="card">
+            <img [src]="data.thumbnail"/>
+            <div class="info">
+                <p class="category">{{data.category | uppercase}}</p>
+                <p class="name">{{data.title | uppercase}}</p>
+                <p class="price">{{data.price | currency:'DT  '}}  <span class="old">{{data.oldPrice | currency:'DT  '}}</span></p>
+                <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                <button type="submit" (click)="onSelect(data.id)" class="btnn">Details</button>
+                <button type="submit" (click)="wishelist($event)" class="btnn">Wishlist</button>
+                <button type="submit" style="display: block; width:70%;" (click)="alerWithSuccess($event)" class="buy">Buy</button>
+            </div>
+        </div>
+</section> -->
+<section>
+    <div class="card">
+        <img [src]="data.thumbnail"/>
+        <div class="info">
+            <p class="category">{{data.category  }}</p>
+            <p class="name">{{data.title }}</p>
+            <p class="price">{{data.price }}  <span class="old">{{data.oldPrice }}</span></p>
+            <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+            <button type="submit" (click)="onSelect(data.id)" class="btnn">Details</button>
+            <button type="submit" (click)="wishelist($event)" class="btnn">Wishlist</button>
+            <button type="submit" style="display: block; width:70%;" (click)="alerWithSuccess($event)" class="buy">Buy</button>
+        </div>
+    </div>
+</section>

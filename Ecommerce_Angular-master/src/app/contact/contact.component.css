@@ -1,0 +1,13 @@
+.icon{
+    color: #865DFF;
+}
+.btn{
+    background-color: #865DFF;
+    color: #fff;
+}
+label span{
+    color: red;
+}
+.alert{
+    padding: 4px;
+}

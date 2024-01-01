@@ -1,0 +1,176 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00",
+      "thumbnail": "../assets/product01.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 2,
+      "title": "Sennheiser",
+      "category": "Headphones",
+      "price": "1700.00",
+      "thumbnail": "../assets/product02.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 3,
+      "title": "HP",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product03.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 4,
+      "title": "Sony",
+      "category": "Headphones",
+      "price": "1700.00",
+      "thumbnail": "../assets/product04.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 5,
+      "title": "Samsung ",
+      "category": "Tablet",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product05.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 6,
+      "title": "msi",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product06.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 7,
+      "title": "Galaxy S7",
+      "category": "phone",
+      "price": "1700.00",
+      "thumbnail": "../assets/product07.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 8,
+      "title": "DELL",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product08.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 9,
+      "title": "nicon",
+      "category": "Camera",
+      "price": "1700.00",
+      "thumbnail": "../assets/product09.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    }
+  ],
+  "Newproduct": [
+    {
+      "id": 1,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00",
+      "thumbnail": "../assets/product01.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 2,
+      "title": "Sennheiser",
+      "category": "Headphones",
+      "price": "1700.00",
+      "thumbnail": "../assets/product02.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 4,
+      "title": "Sony",
+      "category": "Headphones",
+      "price": "1700.00",
+      "thumbnail": "../assets/product04.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 7,
+      "title": "Galaxy S7",
+      "category": "phone",
+      "price": "1700.00",
+      "thumbnail": "../assets/product07.png"
+    },
+    {
+      "id": 9,
+      "title": "NICON",
+      "category": "Camera",
+      "price": "1700.00",
+      "thumbnail": "../assets/product09.png"
+    }
+  ],
+  "Discount": [
+    {
+      "id": 3,
+      "title": "HP",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product03.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 5,
+      "title": "Samsung ",
+      "category": "Tablet",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product05.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 6,
+      "title": "MSI",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product06.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 8,
+      "title": "DELL",
+      "category": "Laptop",
+      "price": "1700.00",
+      "oldPrice": "1900.00",
+      "thumbnail": "../assets/product08.png"
+    }
+  ]
+}

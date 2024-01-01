@@ -1,0 +1,89 @@
+.card {
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h5, h6, h4 {
+    font-family: 'Dosis';
+    font-weight: bold;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    flex-grow: 1;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px; /* Assurez-vous qu'il y a de l'espace à droite */
+  }
+  
+  /* Assurez-vous que .container ou un autre élément parent englobant a une largeur de 100% */
+  .container {
+    width: 100%;
+  }
+  
+  .delete-button {
+    margin-left: auto; /* Cela pousse le bouton vers la droite */
+    padding: 7px 15px;
+    background-color: #dc3545; /* Couleur rouge pour le 'danger' */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  .confirm-button {
+    margin-left: 170px; /* Cela pousse le bouton vers la droite */
+    padding: 7px 15px;
+    background-color: green; /* Couleur rouge pour le 'danger' */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .confirm-button:hover {
+    background-color: darkgreen;
+  }
+  .alert-message {
+    position: fixed; /* ou 'absolute' selon la structure de votre page */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    z-index: 1000; /* pour s'assurer qu'il apparaît au-dessus des autres éléments */
+  }
+  
